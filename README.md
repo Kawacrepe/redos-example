@@ -21,7 +21,12 @@ It is a type of attack that occurs when a malicious user exploits the design of 
 
 
 # How to identify commons pattern
+Here are some signs that may indicate an evil regex pattern:
 
+- Inefficient or highly nested quantifiers.
+- Using unescaped special characters.
+- Overly long or complex expressions.
 
 # Resources
-  - Some resources to get deeper in the subject
+  - https://owasp.org/www-community/OWASP_Validation_Regex_Repository
+  - https://youtu.be/scW9rlEM2p0

@@ -9,6 +9,9 @@ const doSomething = (str) => {
   console.log(`Time: ${(end - start) / 1000} s`);
 };
 
+// Valid
 doSomething('ABCD');
 doSomething('ACCCCCCCCCCCCCCCCCCCCCCCCCCCCD');
+
+// Invalid, blocks the event loop and take a long time before getting completed
 doSomething('ACCCCCCCCCCCCCCCCCCCCCCCCCCCCX');
